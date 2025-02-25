@@ -1,8 +1,152 @@
 {
-  "root": "C:\\Users\\ssoozl\\Desktop\\My project\\moda-FrontEnd\\moda",
-  "reactNativePath": "C:\\Users\\ssoozl\\Desktop\\My project\\moda-FrontEnd\\moda\\node_modules\\react-native",
+  "root": "C:\\My_Repo\\moda-FrontEnd\\moda",
+  "reactNativePath": "C:\\My_Repo\\moda-FrontEnd\\moda\\node_modules\\react-native",
   "reactNativeVersion": "0.77",
-  "dependencies": {},
+  "dependencies": {
+    "react-native-gesture-handler": {
+      "root": "C:\\My_Repo\\moda-FrontEnd\\moda\\node_modules\\react-native-gesture-handler",
+      "name": "react-native-gesture-handler",
+      "platforms": {
+        "ios": {
+          "podspecPath": "C:\\My_Repo\\moda-FrontEnd\\moda\\node_modules\\react-native-gesture-handler\\RNGestureHandler.podspec",
+          "version": "2.23.1",
+          "configurations": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "C:\\My_Repo\\moda-FrontEnd\\moda\\node_modules\\react-native-gesture-handler\\android",
+          "packageImportPath": "import com.swmansion.gesturehandler.RNGestureHandlerPackage;",
+          "packageInstance": "new RNGestureHandlerPackage()",
+          "buildTypes": [],
+          "libraryName": "rngesturehandler_codegen",
+          "componentDescriptors": [
+            "RNGestureHandlerButtonComponentDescriptor",
+            "RNGestureHandlerRootViewComponentDescriptor"
+          ],
+          "cmakeListsPath": "C:/My_Repo/moda-FrontEnd/moda/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cxxModuleCMakeListsModuleName": null,
+          "cxxModuleCMakeListsPath": null,
+          "cxxModuleHeaderName": null,
+          "isPureCxxDependency": false
+        }
+      }
+    },
+    "react-native-reanimated": {
+      "root": "C:\\My_Repo\\moda-FrontEnd\\moda\\node_modules\\react-native-reanimated",
+      "name": "react-native-reanimated",
+      "platforms": {
+        "ios": {
+          "podspecPath": "C:\\My_Repo\\moda-FrontEnd\\moda\\node_modules\\react-native-reanimated\\RNReanimated.podspec",
+          "version": "3.16.7",
+          "configurations": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "C:\\My_Repo\\moda-FrontEnd\\moda\\node_modules\\react-native-reanimated\\android",
+          "packageImportPath": "import com.swmansion.reanimated.ReanimatedPackage;",
+          "packageInstance": "new ReanimatedPackage()",
+          "buildTypes": [],
+          "libraryName": "rnreanimated",
+          "componentDescriptors": [],
+          "cmakeListsPath": "C:/My_Repo/moda-FrontEnd/moda/node_modules/react-native-reanimated/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cxxModuleCMakeListsModuleName": null,
+          "cxxModuleCMakeListsPath": null,
+          "cxxModuleHeaderName": null,
+          "isPureCxxDependency": false
+        }
+      }
+    },
+    "react-native-safe-area-context": {
+      "root": "C:\\My_Repo\\moda-FrontEnd\\moda\\node_modules\\react-native-safe-area-context",
+      "name": "react-native-safe-area-context",
+      "platforms": {
+        "ios": {
+          "podspecPath": "C:\\My_Repo\\moda-FrontEnd\\moda\\node_modules\\react-native-safe-area-context\\react-native-safe-area-context.podspec",
+          "version": "5.2.0",
+          "configurations": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "C:\\My_Repo\\moda-FrontEnd\\moda\\node_modules\\react-native-safe-area-context\\android",
+          "packageImportPath": "import com.th3rdwave.safeareacontext.SafeAreaContextPackage;",
+          "packageInstance": "new SafeAreaContextPackage()",
+          "buildTypes": [],
+          "libraryName": "safeareacontext",
+          "componentDescriptors": [
+            "RNCSafeAreaProviderComponentDescriptor",
+            "RNCSafeAreaViewComponentDescriptor"
+          ],
+          "cmakeListsPath": "C:/My_Repo/moda-FrontEnd/moda/node_modules/react-native-safe-area-context/android/src/main/jni/CMakeLists.txt",
+          "cxxModuleCMakeListsModuleName": null,
+          "cxxModuleCMakeListsPath": null,
+          "cxxModuleHeaderName": null,
+          "isPureCxxDependency": false
+        }
+      }
+    },
+    "react-native-screens": {
+      "root": "C:\\My_Repo\\moda-FrontEnd\\moda\\node_modules\\react-native-screens",
+      "name": "react-native-screens",
+      "platforms": {
+        "ios": {
+          "podspecPath": "C:\\My_Repo\\moda-FrontEnd\\moda\\node_modules\\react-native-screens\\RNScreens.podspec",
+          "version": "4.7.0",
+          "configurations": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "C:\\My_Repo\\moda-FrontEnd\\moda\\node_modules\\react-native-screens\\android",
+          "packageImportPath": "import com.swmansion.rnscreens.RNScreensPackage;",
+          "packageInstance": "new RNScreensPackage()",
+          "buildTypes": [],
+          "libraryName": "rnscreens",
+          "componentDescriptors": [
+            "RNSFullWindowOverlayComponentDescriptor",
+            "RNSScreenContainerComponentDescriptor",
+            "RNSScreenNavigationContainerComponentDescriptor",
+            "RNSScreenStackHeaderConfigComponentDescriptor",
+            "RNSScreenStackHeaderSubviewComponentDescriptor",
+            "RNSScreenStackComponentDescriptor",
+            "RNSSearchBarComponentDescriptor",
+            "RNSScreenComponentDescriptor",
+            "RNSScreenFooterComponentDescriptor",
+            "RNSScreenContentWrapperComponentDescriptor",
+            "RNSModalScreenComponentDescriptor"
+          ],
+          "cmakeListsPath": "C:/My_Repo/moda-FrontEnd/moda/node_modules/react-native-screens/android/src/main/jni/CMakeLists.txt",
+          "cxxModuleCMakeListsModuleName": null,
+          "cxxModuleCMakeListsPath": null,
+          "cxxModuleHeaderName": null,
+          "isPureCxxDependency": false
+        }
+      }
+    },
+    "react-native-vector-icons": {
+      "root": "C:\\My_Repo\\moda-FrontEnd\\moda\\node_modules\\react-native-vector-icons",
+      "name": "react-native-vector-icons",
+      "platforms": {
+        "ios": {
+          "podspecPath": "C:\\My_Repo\\moda-FrontEnd\\moda\\node_modules\\react-native-vector-icons\\RNVectorIcons.podspec",
+          "version": "10.2.0",
+          "configurations": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "C:\\My_Repo\\moda-FrontEnd\\moda\\node_modules\\react-native-vector-icons\\android",
+          "packageImportPath": "import com.oblador.vectoricons.VectorIconsPackage;",
+          "packageInstance": "new VectorIconsPackage()",
+          "buildTypes": [],
+          "libraryName": "RNVectorIconsSpec",
+          "componentDescriptors": [],
+          "cmakeListsPath": "C:/My_Repo/moda-FrontEnd/moda/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cxxModuleCMakeListsModuleName": null,
+          "cxxModuleCMakeListsPath": null,
+          "cxxModuleHeaderName": null,
+          "isPureCxxDependency": false
+        }
+      }
+    }
+  },
   "commands": [
     {
       "name": "bundle",
@@ -160,7 +304,7 @@
         {
           "name": "--path <path>",
           "description": "Path to the React Native project root.",
-          "default": "C:\\Users\\ssoozl\\Desktop\\My project\\moda-FrontEnd\\moda"
+          "default": "C:\\My_Repo\\moda-FrontEnd\\moda"
         },
         {
           "name": "--platform <string>",
@@ -447,7 +591,7 @@
   "assets": [],
   "project": {
     "ios": {
-      "sourceDir": "C:\\Users\\ssoozl\\Desktop\\My project\\moda-FrontEnd\\moda\\ios",
+      "sourceDir": "C:\\My_Repo\\moda-FrontEnd\\moda\\ios",
       "xcodeProject": {
         "name": "moda.xcodeproj",
         "path": ".",
@@ -456,7 +600,7 @@
       "assets": []
     },
     "android": {
-      "sourceDir": "C:\\Users\\ssoozl\\Desktop\\My project\\moda-FrontEnd\\moda\\android",
+      "sourceDir": "C:\\My_Repo\\moda-FrontEnd\\moda\\android",
       "appName": "app",
       "packageName": "com.moda",
       "applicationId": "com.moda",
